@@ -9,11 +9,12 @@
 		}
 #Menulinks{
 
-		padding-left:10px;
+		margin-left:10px;
 		
 }
 #Menulinks a {
 				text-decoration:none;
 				color:black;
 				Margin-left:4px;
+				padding-left:7px;
 }
