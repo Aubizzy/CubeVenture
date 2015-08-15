@@ -1,0 +1,28 @@
+#Slider {
+  height: 500px;
+  margin-top:10px;
+}
+
+#container {
+  margin-top:10px;
+}
+
+#top-right-nav {
+  margin-top:10px;
+  width:100%;
+}
+
+#nav {
+  margin-top:5px;width:100%;
+}
+
+#logo {
+  float:left;
+  margin-right:10px;
+}
+
+#1footer {
+  margin-top:15px;
+  padding-top:3px;
+  padding-bottom:3px;
+}
