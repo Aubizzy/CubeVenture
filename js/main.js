@@ -1,7 +1,7 @@
 $(function() {
     'use strict';
     var $artistSlider = $('#artistSlider');
-    var $artistContent = $('#content');
+    var $artistContent = $('#artistContent');
     var $artistSliderItem = $('.artist-slider-item');
         
     function loadArtistDetails(event) {

@@ -64,15 +64,15 @@
 		
 			
 		</div> 		<!--closing nav-->
+    </div><!--closing header-->
 
         <div id="artistsSlider" Class="grid_16">
-            <ul class="bxslider" id="home-slider">
-                <li class="artist-slider-item" data-url="artist-1"><img src="pics/dummy.jpg" /></li>
-                <li class="artist-slider-item" data-url="artist-1"><img src="pics/dummy1.jpg" /></li>
-                <li class="artist-slider-item" data-url="artist-1"><img src="pics/dummy2.jpg" /></li>
+            <ul class="bxslider">
+                <li><a href="#" class="artist-slider-item" data-url="artist-1"><img src="pics/dummy.jpg" /></a></li>
+                <li><a href="#"  class="artist-slider-item" data-url="artist-1"><img src="pics/dummy1.jpg" /></a></li>
+                <li><a href="#"  class="artist-slider-item" data-url="artist-1"><img src="pics/dummy2.jpg" /></a></li>
             </ul>
         </div> <!--closing slider-->
-    </div><!--closing header-->
 	
 	
 	<div id="artistContent"></div>
@@ -102,12 +102,10 @@
 
 <script type="text/javascript">
     $(function() {
-        $('.bxslider').bxSlider({
-            auto: true,
-            adaptiveHeight: false,
-        });
+        $('.bxslider').bxSlider({ auto: false});
     });
 </script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
 
