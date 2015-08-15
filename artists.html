@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head><title>Home</title>
+<!--Here is our grid links to grid css-->
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
+
+<link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
+
+
+<!-- jQuery library (served from Google) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+
+<div id="container" class="container_16">
+<div id="top-right-nav" class="grid_16">
+
+			<div id="Menulinks" style="float:right;">
+			<a href="">menu</a>
+			<a href="">menu</a>
+			<a href="">menu</a>
+			<a href="">menu</a>
+			<a href="">menu</a>
+			</div>
+</div> <!--closing language-->
+<div id="header" >
+
+	
+		<div id="nav" class="grid_15">
+			
+				<div id="logo">
+					<img src="pics/logo.jpg">
+				</div>
+			<div id="Menulinks">
+				<a href="">menu</a>
+				<a href="">menu</a>
+				<a href="">menu</a>
+				<a href="">menu</a>
+				<a href="">menu</a>
+				<a href="">menu</a>
+				<a href="">menu</a>
+				<a href="">menu</a>
+				<a href="">menu</a>
+				<a href="">menu</a>
+				<div style="float:right;">
+					<input type="text">
+					</div> 
+			</div>
+			
+			
+			
+		
+			
+		</div> 		<!--closing nav-->
+
+        <div id="artistsSlider" Class="grid_16">
+            <ul class="bxslider" id="home-slider">
+                <li class="artist-slider-item" data-url="artist-1"><img src="pics/dummy.jpg" /></li>
+                <li class="artist-slider-item" data-url="artist-1"><img src="pics/dummy1.jpg" /></li>
+                <li class="artist-slider-item" data-url="artist-1"><img src="pics/dummy2.jpg" /></li>
+            </ul>
+        </div> <!--closing slider-->
+    </div><!--closing header-->
+	
+	
+	<div id="artistContent"></div>
+</div>			<!--closing container-->
+
+
+<div id="1footer" class="container_16" style="margin-top:15px;padding-top:3px;padding-bottom:3px;">
+	<div style="float:right">
+	some words right next to this <img src="pics/1.jpg"><img src="pics/2.jpg"><img src="pics/3.jpg"> <img src="pics/4.jpg"><img src="pics/5.jpg">
+	</div>
+</div>
+<div id="2footer" class="container_16" style="border-top:solid 1px grey;padding-top:3px;padding-bottom:3px;">
+		<div id="flogo" style="float:left;">
+			<img src="pics/flogo.jpg"> some words right next to this
+		</div>
+		<div id="links" style="float:right;">
+			<a href="">menu</a>
+			<a href="">menu</a>
+			<a href="">menu</a>
+			<a href="">menu</a>
+			<a href="">menu</a>
+		</div>
+		
+		
+
+</div>			<!--closing footer-->
+
+<script type="text/javascript">
+    $(function() {
+        $('.bxslider').bxSlider({
+            auto: true,
+            adaptiveHeight: false,
+        });
+    });
+</script>
+</body>
+</html>
+
