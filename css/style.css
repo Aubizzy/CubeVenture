@@ -28,5 +28,10 @@
 }
 
 #artistsSlider {
-    height: 200px;    
+    height: 200px!important;
+    display: block;
+}
+#artistContent {
+    clear: both;
+    height: 500px;
 }
